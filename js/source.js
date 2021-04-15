@@ -14,6 +14,8 @@ let truncateString = function(str, num)
     }
 }
 writeOutput(truncateString("Hoje está um lindo dia", 12));
+writeOutput(truncateString("Hoje está um lindo dia", 4));
+writeOutput(truncateString("Hoje está um lindo dia", 20));
 
 //truncateString("Hoje está um lindo dia", 22) -> "Hoje está um lindo dia"
 //truncateString("Hoje ésta um lindo dia", 8) -> "Hoje est...";
